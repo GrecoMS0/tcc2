@@ -1,0 +1,258 @@
+h1 {
+    font-family: var(--estilo-fonte);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(100, 100, 100, 0.4);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+h3 {
+    font-family: var(--estilo-fonte);
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: white;
+    text-align: center;
+}
+
+#Planta {
+    height: 435px;
+    width: 880px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #168AAD;
+    border-width: 3px;
+}
+
+h6 {
+    font-family: var(--estilo-fonte);
+    color: white;
+    text-align: center;
+}
+
+#NomeBloco {
+    font-family: var(--estilo-fonte);
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.parent {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+#Legenda {
+    font-size: 20px;
+    font-family: var(--estilo-fonte);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+button {
+    font-size: 18px;
+    font-family: var(--estilo-fonte);
+    color: white;
+}
+
+.div-h1 {
+    /*background-image: url(../../images/background.jpg);
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+    background-image: linear-gradient(to bottom, #282828, #302d43, #353360, #37387d, #363d9c, #363d9c, #363d9c, #363d9c, #37387d, #353360, #302d43, #282828);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px !important;
+    padding-left: 300px;
+    padding-right: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#b1 {
+    border-color: black;
+    border-width: 2px;
+    background-color: lime;
+    color: black;
+    font-family: var(--estilo-fonte);
+}
+
+.row {
+    height: 435px;
+    width: 1535px;
+    padding-left: 10px;
+}
+
+.SelectSpot {
+    background-color: gray;
+    color: black;
+    padding: 6px;
+    width: 150px;
+    border: none;
+    font-size: 20px;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    font-family: var(--estilo-fonte);
+}
+
+.Stat-box {
+    padding-top: 10px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+}
+
+.sair {
+    padding-top: 10px;
+    display: block;
+    margin-left: 363px;
+    margin-right: auto;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-erro {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border-color: black;
+    color: red;
+    font-family: var(--estilo-fonte);
+    text-shadow: 0 0 2px white;
+}
+
+.Edit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 37px;
+}
+
+#Indicador {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: inherit;
+}
+
+.ocupado {
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000000;
+    background-color: red;
+}
+
+.indisponivel {
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000000;
+    background-color: yellow;
+}
+
+.disponivel {
+    border-radius: 50%;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #000000;
+    background-color: limegreen;
+}
+
+.tabela-precos {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+table.darkTable {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    border: 2px solid #000000;
+    background-color: #212121;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table.darkTable td,
+table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+}
+
+table.darkTable tbody td {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+table.darkTable tr:nth-child(even) {
+    background: #3D3D3D;
+}
+
+table.darkTable thead {
+    background: #000000;
+    border-bottom: 3px solid #000000;
+}
+
+table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+}
+
+table.darkTable thead th:first-child {
+    border-left: none;
+}
+
+table.darkTable tfoot {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E6E6E6;
+    background: #000000;
+    background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+    border-top: 1px solid #4A4A4A;
+}
+
+table.darkTable tfoot td {
+    font-size: 12px;
+}
